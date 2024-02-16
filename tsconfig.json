@@ -15,6 +15,11 @@
     "declaration": false,
     "experimentalDecorators": true,
     "moduleResolution": "node",
+    "paths": {
+      "saru-lib": [
+        "./dist/saru-lib"
+      ]
+    },
     "importHelpers": true,
     "target": "ES2022",
     "module": "ES2022",
